@@ -60,7 +60,8 @@ function App() {
             <ScrollToTop>
               <div className="App">
                   <Navbar />
-                  <Route path="/" exact component={Home}></Route>  
+                  <Route path="/" exact component={Home}></Route> 
+                  <Route path="/WebDesignProject" exact component={Home}></Route>   
                   <Route path="/about" component={AboutUs}></Route>  
                   <Route path="/contact" component={ContactUs}></Route>         
                   <Route path="/payment" component={Payment}></Route> 

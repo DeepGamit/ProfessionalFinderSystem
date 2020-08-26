@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/WebDesignProject/static/css/main.b9d5015a.chunk.css",
-    "main.js": "/WebDesignProject/static/js/main.f0347f18.chunk.js",
-    "main.js.map": "/WebDesignProject/static/js/main.f0347f18.chunk.js.map",
+    "main.js": "/WebDesignProject/static/js/main.f376748d.chunk.js",
+    "main.js.map": "/WebDesignProject/static/js/main.f376748d.chunk.js.map",
     "runtime-main.js": "/WebDesignProject/static/js/runtime-main.ecca9882.js",
     "runtime-main.js.map": "/WebDesignProject/static/js/runtime-main.ecca9882.js.map",
     "static/js/2.618b27f0.chunk.js": "/WebDesignProject/static/js/2.618b27f0.chunk.js",
     "static/js/2.618b27f0.chunk.js.map": "/WebDesignProject/static/js/2.618b27f0.chunk.js.map",
     "index.html": "/WebDesignProject/index.html",
-    "precache-manifest.ac6d3360c24a39d1624c96dd264bc9fd.js": "/WebDesignProject/precache-manifest.ac6d3360c24a39d1624c96dd264bc9fd.js",
+    "precache-manifest.6c3a88cf87d6d554d6711af2ef2dedce.js": "/WebDesignProject/precache-manifest.6c3a88cf87d6d554d6711af2ef2dedce.js",
     "service-worker.js": "/WebDesignProject/service-worker.js",
     "static/css/main.b9d5015a.chunk.css.map": "/WebDesignProject/static/css/main.b9d5015a.chunk.css.map",
     "static/js/2.618b27f0.chunk.js.LICENSE.txt": "/WebDesignProject/static/js/2.618b27f0.chunk.js.LICENSE.txt",
@@ -88,6 +88,6 @@
     "static/js/runtime-main.ecca9882.js",
     "static/js/2.618b27f0.chunk.js",
     "static/css/main.b9d5015a.chunk.css",
-    "static/js/main.f0347f18.chunk.js"
+    "static/js/main.f376748d.chunk.js"
   ]
 }

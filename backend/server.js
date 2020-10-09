@@ -12,7 +12,7 @@ mongoose.Promise = global.Promise;
 
 var connectionString = '';
 if(process.env.USERNAME){
-  connectionString = 'mongodb://'+process.env.USERNAME +':'+process.env.PASSWORD+'ds043057.mlab.com:43057/heroku_1mj6bx35'
+  connectionString = 'mongodb+srv://webDesign:Legion16@webdesign-kulau.mongodb.net/test?retryWrites=true&w=majority'
 }
 
 

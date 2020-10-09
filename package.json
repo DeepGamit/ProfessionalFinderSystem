@@ -1,8 +1,11 @@
 {
   "name": "final",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
-  "homepage": "https://DeepGamit.github.io/PFS",
+  "homepage": "https://DeepGamit.github.io/ProfessionalFinderSystem",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",

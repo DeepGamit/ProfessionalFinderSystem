@@ -39,8 +39,6 @@ class NavbarComponent extends Component {
               display = <LoggedOut/>;
             }
 
-            console.log(this.props);
-
         return(
             <Navbar
           className="navbar-horizontal navbar-dark bg-dark mt-4"

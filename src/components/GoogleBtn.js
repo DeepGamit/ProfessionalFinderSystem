@@ -5,7 +5,7 @@ import axios from 'axios';
 import { setUser } from '../actions/setUser';
 import { connect } from 'react-redux';
 
-const CLIENT_ID = '93246890964-a6n1q1r82a76fve86fhalu6pmat9tvtf.apps.googleusercontent.com';
+const CLIENT_ID = '340522959852-litv8sc1lq7ndp670pkbmhshg47n522c.apps.googleusercontent.com';
 
 
 class GoogleBtn extends Component {

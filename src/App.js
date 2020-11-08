@@ -60,52 +60,52 @@ function App() {
             <ScrollToTop>
               <div className="App">
                   <Navbar />
-                  <Route path="/" exact component={Home}></Route>  
-                  <Route path="/about" component={AboutUs}></Route>  
-                  <Route path="/contact" component={ContactUs}></Route>         
-                  <Route path="/payment" component={Payment}></Route> 
-                  <Route path="/paymenthistory" exact component={PaymentHistory}></Route>
-                  <Route path="/paymenthistory/review" component={Review}></Route>
+                  <Route path="/" exact component={Home}/>
+                  <Route path="/about" component={AboutUs}/>
+                  <Route path="/contact" component={ContactUs}/>
+                  <Route path="/payment" component={Payment}/>
+                  <Route path="/paymenthistory" exact component={PaymentHistory}/>
+                  <Route path="/paymenthistory/review" component={Review}/>
 
-                  <Route path="/careers" component={Careers}></Route>
+                  <Route path="/careers" component={Careers}/>
 
-                  <Route path="/Cleaning/sofaCleaning" exact component={SofaCleaning}></Route>             
-                  <Route path="/Cleaning/sofaCleaning/shop" component={SofaCleaningCart}></Route>
-                  <Route path="/Cleaning/bathroomCleaning" exact component={BathroomCleaning}></Route>             
-                  <Route path="/Cleaning/bathroomCleaning/shop" component={BathroomCleaningCart}></Route> 
-                  <Route path="/Cleaning/kitchenCleaning" exact component={KitchenCleaning}></Route>             
-                  <Route path="/Cleaning/kitchenCleaning/shop" component={KitchenCleaningCart}></Route> 
+                  <Route path="/Cleaning/sofaCleaning" exact component={SofaCleaning}/>
+                  <Route path="/Cleaning/sofaCleaning/shop" component={SofaCleaningCart}/>
+                  <Route path="/Cleaning/bathroomCleaning" exact component={BathroomCleaning}/>
+                  <Route path="/Cleaning/bathroomCleaning/shop" component={BathroomCleaningCart}/>
+                  <Route path="/Cleaning/kitchenCleaning" exact component={KitchenCleaning}/>
+                  <Route path="/Cleaning/kitchenCleaning/shop" component={KitchenCleaningCart}/>
                   
-                  <Route path="/HomeService/plumber" exact component={Plumber}></Route>  
-                  <Route path="/HomeService/plumber/shop" component={PlumberCart}></Route>    
-                  <Route path="/HomeService/electrician" exact component={Electrician}></Route>  
-                  <Route path="/HomeService/electrician/shop" component={ElectricianCart}></Route>    
-                  <Route path="/HomeService/carpenter" exact component={Carpenter}></Route>  
-                  <Route path="/HomeService/carpenter/shop" component={CarpenterCart}></Route> 
+                  <Route path="/HomeService/plumber" exact component={Plumber}/>
+                  <Route path="/HomeService/plumber/shop" component={PlumberCart}/>
+                  <Route path="/HomeService/electrician" exact component={Electrician}/>
+                  <Route path="/HomeService/electrician/shop" component={ElectricianCart}/>
+                  <Route path="/HomeService/carpenter" exact component={Carpenter}/>
+                  <Route path="/HomeService/carpenter/shop" component={CarpenterCart}/>
 
-                  <Route path="/Salon/makeup" exact component={MakeUp}></Route>
-                  <Route path="/Salon/makeup/shop" component={MakeUpCart}></Route>
-                  <Route path="/Salon/salonAtHomeWomen" exact component={SalonAtHomeWomen}></Route>
-                  <Route path="/Salon/salonAtHomeWomen/shop"  component={SalonAtHomeWomenCart}></Route>
-                  <Route path="/Salon/haircut" exact component={Haircut}></Route>
-                  <Route path="/Salon/haircut/shop" component={HaircutCart}></Route>
+                  <Route path="/Salon/makeup" exact component={MakeUp}/>
+                  <Route path="/Salon/makeup/shop" component={MakeUpCart}/>
+                  <Route path="/Salon/salonAtHomeWomen" exact component={SalonAtHomeWomen}/>
+                  <Route path="/Salon/salonAtHomeWomen/shop"  component={SalonAtHomeWomenCart}/>
+                  <Route path="/Salon/haircut" exact component={Haircut}/>
+                  <Route path="/Salon/haircut/shop" component={HaircutCart}/>
                   
-                  <Route path="/ElectronicRepair/microwaveRepair" exact component={MicrowaveRepair}></Route>             
-                  <Route path="/ElectronicRepair/microwaveRepair/shop" component={MicrowaveRepairCart}></Route> 
-                  <Route path="/ElectronicRepair/tvRepair" exact component={TVRepair}></Route>
-                  <Route path="/ElectronicRepair/tvRepair/shop" component={TVRepairCart}></Route> 
-                  <Route path="/ElectronicRepair/waterRepair" exact component={WaterRepair}></Route>
-                  <Route path="/ElectronicRepair/waterRepair/shop" component={WaterRepairCart}></Route>  
-                  <Route path="/ApplianceRepair/acRepair" exact component={ACRepair}></Route>
-                  <Route path="/ApplianceRepair/acRepair/shop" component={ACRepairCart}></Route>
-                  <Route path="/ApplianceRepair/washingMachineRepair" exact component={WMRepair}></Route>
-                  <Route path="/ApplianceRepair/washingMachineRepair/shop" component={WMRepairCart}></Route>
-                  <Route path="/ApplianceRepair/fridgeRepair" exact component={FridgeRepair}></Route>
-                  <Route path="/ApplianceRepair/fridgeRepair/shop" component={FridgeRepairCart}></Route>
+                  <Route path="/ElectronicRepair/microwaveRepair" exact component={MicrowaveRepair}/>
+                  <Route path="/ElectronicRepair/microwaveRepair/shop" component={MicrowaveRepairCart}/>
+                  <Route path="/ElectronicRepair/tvRepair" exact component={TVRepair}/>
+                  <Route path="/ElectronicRepair/tvRepair/shop" component={TVRepairCart}/>
+                  <Route path="/ElectronicRepair/waterRepair" exact component={WaterRepair}/>
+                  <Route path="/ElectronicRepair/waterRepair/shop" component={WaterRepairCart}/>
+                  <Route path="/ApplianceRepair/acRepair" exact component={ACRepair}/>
+                  <Route path="/ApplianceRepair/acRepair/shop" component={ACRepairCart}/>
+                  <Route path="/ApplianceRepair/washingMachineRepair" exact component={WMRepair}/>
+                  <Route path="/ApplianceRepair/washingMachineRepair/shop" component={WMRepairCart}/>
+                  <Route path="/ApplianceRepair/fridgeRepair" exact component={FridgeRepair}/>
+                  <Route path="/ApplianceRepair/fridgeRepair/shop" component={FridgeRepairCart}/>
 
                   
-                  <Route path="/Massage/bodyMassage" exact component={BodyMassage}></Route>
-                  <Route path="/Massage/bodyMassage/shop" component={BodyMassageCart}></Route>
+                  <Route path="/Massage/bodyMassage" exact component={BodyMassage}/>
+                  <Route path="/Massage/bodyMassage/shop" component={BodyMassageCart}/>
 
                   <CartModal />
                   <Footer />    
